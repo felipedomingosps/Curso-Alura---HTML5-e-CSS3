@@ -172,7 +172,6 @@ td, th {
 	clear: left;
 }
 
-
 .principal {
 	padding: 3em 0;
 	background-color: #FEFEFE;
@@ -220,6 +219,11 @@ td, th {
 
 .itens {
 	line-height: 1.5em;
+}
+
+.itens:before {
+	content: "•";
+	font-weight: normal;
 }
 
 .itens:first-child {
